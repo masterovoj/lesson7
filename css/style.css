@@ -1,0 +1,121 @@
+
+main {
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    background: url("/img/ellipse.png") 50% 100px no-repeat, #e8e8e8; 
+}
+
+.container {
+    max-width: 821px;
+    margin: 0 auto;
+}
+
+.name {
+    opacity: 0.6;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #273d46;
+    font-family: ArialMT;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.title{
+    text-align: center;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #273d46;
+    max-width: 736px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+
+.image {
+    margin-top: 77px;
+}
+
+.image img {
+    width: 100%;
+    border: 10px solid white;
+}
+
+.text {
+    max-width: 736px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.text p{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #273d46;
+    opacity: 0.8;
+    text-align: left;
+}
+
+.list {
+    margin-top: 65px;
+}
+
+.list li {
+    font-family: Arial;
+    padding-left: 35px;
+    background: url("/img/check_icon.png") 0 7px / 25px no-repeat;
+}
+
+.item1 {    
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #273d46;
+    text-shadow: 0px 1px 0px 0px rgba(0,0,0,0.3);
+}
+
+.item2 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #80b7b3;    
+}
+
+.item3 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: rgb(39, 61, 70);   
+}
+
+.item4 {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: rgba(39, 61, 70, 0.3);    
+}
+
+.btn{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 140px;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 24px;
+    padding: 0px 30px;
+    padding-top: 3px;
+    background-color: #5FB8B4;
+    box-shadow: 3px 5px 40px 0px rgba(127, 183, 179, 0.54);
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2,8px;
+    height: 44px;
+}
+
+.btn span {
+    padding-right: 30px;
+    background: url("../img/shape.png") right no-repeat;
+}
