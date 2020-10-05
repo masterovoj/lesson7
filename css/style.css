@@ -1,7 +1,7 @@
 
 main {
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-    background: url("/img/ellipse.png") 50% 100px no-repeat, #e8e8e8; 
+    background: url("../img/ellipse.png") 50% 100px no-repeat, #e8e8e8; 
 }
 
 .container {
@@ -64,7 +64,7 @@ main {
 .list li {
     font-family: Arial;
     padding-left: 35px;
-    background: url("/img/check_icon.png") 0 7px / 25px no-repeat;
+    background: url("../img/check_icon.png") 0 7px / 25px no-repeat;
 }
 
 .item1 {    
